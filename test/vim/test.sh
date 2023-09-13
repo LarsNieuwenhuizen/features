@@ -6,7 +6,7 @@ set -e
 source dev-container-features-test-lib
 
 # Feature-specific tests
-check "neovim" nvim --version
+check "vim" vim --version
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.

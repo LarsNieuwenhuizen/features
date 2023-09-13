@@ -2,7 +2,7 @@
     "all": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "neovim": {}
+            "vim": {}
         }
     }
 }

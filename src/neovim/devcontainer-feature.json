@@ -1,6 +1,0 @@
-{
-    "name": "NeoVim",
-    "id": "neovim",
-    "version": "0.0.2",
-    "description": "A improved, better maintained and extenable drop-in replacement for the vim you know and love"
-}
