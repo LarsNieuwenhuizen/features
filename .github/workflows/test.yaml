@@ -14,7 +14,7 @@ jobs:
       matrix:
         features:
           - neovim
-          - jq-yq
+          - jqyq
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -35,7 +35,7 @@ jobs:
       matrix:
         features:
           - neovim
-          - jq-yq
+          - jqyq
     steps:
       - uses: actions/checkout@v3
 
