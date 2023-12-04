@@ -1,0 +1,6 @@
+{
+    "name": "yq and jq binaries",
+    "id": "yq-jq",
+    "version": "0.0.1",
+    "description": "Install yq and jq binaries"
+}
