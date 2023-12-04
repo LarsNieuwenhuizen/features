@@ -1,8 +1,15 @@
 {
     "image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
+    "postCreateCommand": ".devcontainer/init.sh",
     "customizations": {
         "vscode": {
             "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh",
+                "terminal.integrated.profiles.linux": {
+                    "zsh": {
+                        "path": "/usr/bin/zsh"
+                    }
+                },
                 "json.schemas": [
                     {
                         "fileMatch": [
@@ -13,7 +20,10 @@
                 ]
             },
             "extensions": [
-                "mads-hartmann.bash-ide-vscode"
+                "mads-hartmann.bash-ide-vscode",
+                "GitHub.copilot",
+                "GitHub.vscode-github-actions",
+                "foxundermoon.shell-format"
             ]
         }
     },
